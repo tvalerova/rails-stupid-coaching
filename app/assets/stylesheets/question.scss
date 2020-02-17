@@ -1,0 +1,55 @@
+// Place all the styles related to the question controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  background: #F4F4F4; // Using this variable
+  font-family: Arial;
+}
+
+.main-container{
+  margin: 30px;
+}
+
+.question-form {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+#input{
+  border-radius: 5px;
+  width: 200px;
+  height: 20px;
+}
+
+#button{
+  width: 40px;
+  color: pink;
+  background-color: black;
+  border-radius: 5px;
+}
+
+.your-message{
+  background-color: beige;
+  width: 400px;
+  height: 80px;
+  padding: 10px 30px;
+  border-left: solid 3px grey;
+  margin-bottom: 20px;
+}
+
+.coach-answer{
+  background-color: yellow;
+  width: 400px;
+  height: 80px;
+  padding: 10px 30px;
+  margin-bottom: 20px;
+  border-left: solid 3px grey;
+}
+
+.link{
+  width: 400px;
+  height: 80px;
+  padding: 10px 30px;
+  color: blue;
+}
